@@ -121,6 +121,7 @@ body {
   font-family: 'barlowSemiBold', sans-serif;
   background-color: var(--clr-light);
   max-width: 1440px;
+  margin-inline: auto;
 }
 
 h1 {
@@ -150,11 +151,14 @@ h3 {
   left: 2em;
   right: 2em;
   z-index: 9999;
+  max-width: 1440px;
+  margin-inline: auto;
 }
 
 .nav {
   display: flex;
   justify-content: space-between;
+  padding-inline: 2em;
 }
 
 .nav-brand {
